@@ -15,17 +15,18 @@ I ended up making three different web apps (made possible by Streamlit's ease of
 I ended up making three different web apps - face swap, style transfer, and StyleGAN encoding. Try them out for yourself! [Coming soon]
 
 ---
-###Style Transfer
+
+### Style Transfer
 ![PyTorch 1.3.1](https://img.shields.io/badge/pytorch-1.3.1-red.svg?style=plastic)
 ![PIL 7.2.0](https://img.shields.io/badge/PIL-7.2.0-yellow.svg?style=plastic)
 The user uploads one image, selects a model for the style from the drop down menu, and then receives a style transferred result through [eriklindernoren](https://github.com/eriklindernoren)'s [Fast Neural Style Transfer](https://github.com/eriklindernoren/Fast-Neural-Style-Transfer). The pretrained models correspond to the style images I trained, and their filesnames contain the number of iterations when the model was saved.
 
-###Face Swap
+### Face Swap
 ![Open CV 4.4.0](https://img.shields.io/badge/opencv-4.4.0-indigo.svg?style=plastic)
 ![dlib 19.21.0](https://img.shields.io/badge/dlib-19.21.0-purple.svg?style=plastic)
 The user uploads two images and then can press two buttons: Swap Down, or Swap Up. An image of the corresponding swap is returned. The face swap implementation is from [wuhuikai](https://github.com/wuhuikai)'s [Face Swap](https://github.com/wuhuikai/FaceSwap) using OpenCV and dlib.
 
-##StyleGAN Encoder
+### StyleGAN Encoder
 ![TensorFlow 1.15](https://img.shields.io/badge/tensorflow-1.15-orangered.svg?style=plastic)
 ![Keras 2.0.8](https://img.shields.io/badge/keras-2.0.8-darkred.svg?style=plastic)
 The user can select a pretrained latent representation (.npy file) or encode their own by going to the StyleGAN directory and running
