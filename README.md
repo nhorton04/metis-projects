@@ -44,6 +44,6 @@ Used Natural Language Processing tools including Spacy, Gensim, Textblob, and Wo
 - Capstone project to familiarize myself with the inner workings of neural networks, specifically in the context of Computer Vision
 - Created web apps for Face Swap, Style Transfer, StyleGAN Encoding
 - Used the "Flickr Faces" dataset with 168,000 aligned facial images to train the models
-- For Style Transfer, 10,000 iterations of training was optimal - fewer iterations had low resolution and noise, while more gave diminishing returns
+  - For Style Transfer, 10,000 iterations of training was optimal - fewer iterations had low resolution and noise, while more gave diminishing returns
 - Used OpenCV to detect faces, PyTorch and Tensorflow to generate optimized images according to style and content loss functions, and Streamlit for a simple, effective user interface
 
