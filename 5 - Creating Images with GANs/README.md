@@ -10,9 +10,9 @@ For my final project at Metis, I set out to create a web app where a user could 
 
 
 ## Web Apps
-I ended up making three different web apps (made possible by Streamlit's ease of use) - face swap, style transfer, and StyleGAN encoding - my original goal, blending faces ! - however, unfortunately the StyleGAN app can't accept any new images, it can only load .npy latent representation files and then blend them to different ratios using sliders. The other two apps are fully functional though (although too big to upload to Heroku - I want to host it myself soon).
+When all was said and done, I had 2 proof of concept apps for face swapping and StyleGAN encoding (blending faces) and one fully functional style transfer application.
 
-I ended up making three different web apps - face swap, style transfer, and StyleGAN encoding. Try them out for yourself! [Coming soon]
+You can try the style transfer app yourself [here](http://18.188.208.188:8501/).
 
 ---
 
